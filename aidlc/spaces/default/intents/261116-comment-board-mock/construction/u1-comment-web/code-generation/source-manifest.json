@@ -1,0 +1,17 @@
+{
+  "stage": "code-generation",
+  "unit": "u1-comment-web",
+  "version": 1,
+  "writes": [
+    { "path": "frontend/index.html" },
+    { "path": "frontend/config.js" },
+    { "path": "frontend/style.css" },
+    { "path": "frontend/.gitignore" },
+    { "path": "frontend/package.json" },
+    { "path": "frontend/package-lock.json" },
+    { "path": "frontend/vitest.config.js" },
+    { "path": "frontend/app.js" },
+    { "path": "frontend/main.js" },
+    { "path": "frontend/test/app.test.js" }
+  ]
+}
