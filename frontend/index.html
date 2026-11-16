@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>コメントボード</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>コメントボード</h1>
+
+      <form id="comment-form" class="comment-form" data-testid="comment-form" novalidate>
+        <label for="comment-input">コメント</label>
+        <textarea
+          id="comment-input"
+          name="body"
+          rows="3"
+          maxlength="500"
+          placeholder="コメントを入力してください（500 文字まで）"
+          data-testid="comment-form-body-input"
+        ></textarea>
+        <button type="submit" id="comment-submit" data-testid="comment-form-submit-button">投稿</button>
+      </form>
+
+      <p id="comment-error" class="error" role="alert" hidden data-testid="comment-error-message"></p>
+
+      <h2>コメント一覧</h2>
+      <ul id="comment-list" class="comment-list" data-testid="comment-list"></ul>
+    </main>
+
+    <!-- config.js は API の URL を window.APP_CONFIG に設定する（デプロイ時に U2 が上書き） -->
+    <script src="config.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
