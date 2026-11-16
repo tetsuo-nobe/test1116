@@ -1,0 +1,12 @@
+{
+  "stage": "domain-design",
+  "upstream_ids": ["FR1.1", "FR1.2", "FR1.3", "FR2.1", "FR2.2", "FR2.3"],
+  "coverage": [
+    { "id": "FR1.1", "status": "OK", "target": "CommentWebUI" },
+    { "id": "FR1.2", "status": "OK", "target": "CommentService" },
+    { "id": "FR1.3", "status": "OK", "target": "CommentService" },
+    { "id": "FR2.1", "status": "OK", "target": "CommentService" },
+    { "id": "FR2.2", "status": "OK", "target": "CommentWebUI" },
+    { "id": "FR2.3", "status": "OK", "target": "CommentWebUI" }
+  ]
+}
