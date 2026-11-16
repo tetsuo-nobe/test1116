@@ -89,7 +89,7 @@
 - [ ] nfr-requirements — SKIP
 - [ ] nfr-design — SKIP
 - [ ] infrastructure-design — SKIP
-- [ ] code-generation — EXECUTE
+- [-] code-generation — EXECUTE
 - [ ] build-and-test — EXECUTE
 - [ ] ci-pipeline — SKIP
 
@@ -104,10 +104,10 @@
 
 ## Unit Progress
 <!-- Derived, engine-owned projection; routing ignores hand edits. -->
-| unit | owner | code-generation | gate |
-| --- | --- | --- | --- |
-| u1-comment-web | - | [ ] | [ ] |
-| u2-comment-api | - | [ ] | [ ] |
+| unit | owner | code-generation | gate | merged |
+| --- | --- | --- | --- | --- |
+| u1-comment-web | - | [ ] | [ ] | [ ] |
+| u2-comment-api | tnobe | [x] | [x] | [x] |
 
 ## Current Status
 - **Lifecycle Phase**: CONSTRUCTION
