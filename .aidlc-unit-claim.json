@@ -11,7 +11,9 @@
   "base_oid": "f331c7d9fbad962b12b8afba5c80f18451fe774f",
   "integration_ref": "refs/remotes/origin/main",
   "claim_ref": "refs/heads/claim/0dd83e29/u2-comment-api",
-  "predecessor_oid": null,
+  "predecessor_oid": "1e27634e70ad19cf06fca093b531c7131dc4c3e2",
   "gate_rhythm": "per-stage",
-  "audit_shard": "hnd-5cg3424g7h-d2dc59d5be9f.md"
+  "audit_shard": "hnd-5cg3424g7h-d2dc59d5be9f.md",
+  "candidate_tree_oid": "da155ba567f0d32f82bb6e98d1e6dc0bb4436292",
+  "candidate_head_oid": "1996db16e6e3b84112acf3d5e6a152e2b142f748"
 }

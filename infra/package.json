@@ -1,0 +1,23 @@
+{
+  "name": "comment-board-infra",
+  "version": "0.1.0",
+  "private": true,
+  "description": "コメントボード Mock の AWS CDK アプリ（DynamoDB・Lambda・HTTP API・S3・CloudFront）",
+  "bin": {
+    "comment-board": "bin/app.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.170.0",
+    "constructs": "^10.4.0"
+  },
+  "devDependencies": {
+    "aws-cdk": "^2.1000.0"
+  }
+}
