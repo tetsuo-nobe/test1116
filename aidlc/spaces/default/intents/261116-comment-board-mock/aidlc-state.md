@@ -45,6 +45,8 @@
 
 - **Unit Ownership**: team
 
+- **Skeleton Stance**: scope-dependent
+
 ## Phase Progress
 <!-- Status values: Pending, Active, Verified, Skipped -->
 
@@ -87,7 +89,7 @@
 - [ ] nfr-requirements — SKIP
 - [ ] nfr-design — SKIP
 - [ ] infrastructure-design — SKIP
-- [-] code-generation — EXECUTE
+- [ ] code-generation — EXECUTE
 - [ ] build-and-test — EXECUTE
 - [ ] ci-pipeline — SKIP
 
@@ -99,6 +101,13 @@
 - [ ] incident-response — SKIP
 - [ ] performance-validation — SKIP
 - [ ] feedback-optimization — SKIP
+
+## Unit Progress
+<!-- Derived, engine-owned projection; routing ignores hand edits. -->
+| unit | owner | code-generation | gate |
+| --- | --- | --- | --- |
+| u1-comment-web | - | [ ] | [ ] |
+| u2-comment-api | - | [ ] | [ ] |
 
 ## Current Status
 - **Lifecycle Phase**: CONSTRUCTION
