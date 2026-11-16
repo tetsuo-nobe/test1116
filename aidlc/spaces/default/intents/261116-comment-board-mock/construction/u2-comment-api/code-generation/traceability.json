@@ -1,0 +1,10 @@
+{
+  "stage": "code-generation",
+  "unit": "u2-comment-api",
+  "upstream_ids": ["FR1.2", "FR1.3", "FR2.1"],
+  "coverage": [
+    { "id": "FR1.2", "status": "OK", "target": "backend/test/handler.test.mjs" },
+    { "id": "FR1.3", "status": "OK", "target": "backend/test/validation.test.mjs" },
+    { "id": "FR2.1", "status": "OK", "target": "backend/test/handler.test.mjs" }
+  ]
+}
