@@ -1,0 +1,11 @@
+{
+  "stage": "code-generation",
+  "unit": "u1-comment-web",
+  "upstream_ids": ["FR1.1", "FR1.3", "FR2.2", "FR2.3"],
+  "coverage": [
+    { "id": "FR1.1", "status": "OK", "target": "frontend/app.js" },
+    { "id": "FR1.3", "status": "OK", "target": "frontend/app.js" },
+    { "id": "FR2.2", "status": "OK", "target": "frontend/app.js" },
+    { "id": "FR2.3", "status": "OK", "target": "frontend/test/app.test.js" }
+  ]
+}

@@ -45,6 +45,11 @@
 
 - **Unit Ownership**: team
 
+- **Skeleton Stance**: scope-dependent
+
+
+
+
 ## Phase Progress
 <!-- Status values: Pending, Active, Verified, Skipped -->
 
@@ -100,12 +105,19 @@
 - [ ] performance-validation — SKIP
 - [ ] feedback-optimization — SKIP
 
+## Unit Progress
+<!-- Derived, engine-owned projection; routing ignores hand edits. -->
+| unit | owner | code-generation | gate |
+| --- | --- | --- | --- |
+| u1-comment-web | tnobe | [x] | [x] |
+| u2-comment-api | - | [ ] | [ ] |
+
 ## Current Status
 - **Lifecycle Phase**: CONSTRUCTION
 - **Current Stage**: code-generation
 - **Next Stage**: build-and-test
 - **Status**: Running
-- **Last Updated**: 2026-11-16T11:49:27Z
+- **Last Updated**: 2026-11-16T12:28:31Z
 
 ## Session Resume Point
 - **Last Completed Stage**: units-generation
