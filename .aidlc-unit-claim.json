@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "status": "claimed",
+  "owner": "tnobe",
+  "space": "default",
+  "intent_uuid": "01a1e423-8e61-7f37-bdbe-dc210dd83e29",
+  "intent_id8": "0dd83e29",
+  "unit": "u2-comment-api",
+  "generation": 1,
+  "nonce": "78949b2b-3244-4057-88ae-8061c618f481",
+  "base_oid": "f331c7d9fbad962b12b8afba5c80f18451fe774f",
+  "integration_ref": "refs/remotes/origin/main",
+  "claim_ref": "refs/heads/claim/0dd83e29/u2-comment-api",
+  "predecessor_oid": null,
+  "gate_rhythm": "per-stage",
+  "audit_shard": "hnd-5cg3424g7h-d2dc59d5be9f.md"
+}
